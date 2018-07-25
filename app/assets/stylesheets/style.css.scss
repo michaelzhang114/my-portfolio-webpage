@@ -1,4 +1,4 @@
-.fa {
+.fa-btn {
   padding: 20px;
   font-size: 40px;
   width: 57px;
@@ -7,8 +7,9 @@
   margin: 5px 2px;
 }
 
-.fa:hover {
+.fa-btn:hover {
     opacity: 0.9;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .fa-facebook {
@@ -35,6 +36,11 @@
   background: #25292E;
   color: white;
 }
+.fa-envelope {
+  background: #4fa37f;
+  color: white;
+}
+
 .nav-tabs {
    border-bottom: 0px;
 }
@@ -57,9 +63,5 @@ body {
 .content {
   margin-top: 30px;
   height: 700px;
-}
-
-.fa:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
