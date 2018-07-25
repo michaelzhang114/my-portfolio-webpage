@@ -51,13 +51,22 @@ body {
   // background-repeat: repeat;
   // background-size: cover;
 
-  background: #E0EAFC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  background: #EFEFBB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+hr {
+  border: 5;
+  height: 3px;
+  background-image: linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
 }
 
 .content {
@@ -65,3 +74,7 @@ body {
   height: 700px;
 }
 
+.img-shade {
+  //width: 250px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
