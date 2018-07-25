@@ -1,0 +1,58 @@
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-github {
+  background: #25292E;
+  color: white;
+}
+.nav-tabs {
+   border-bottom: 0px;
+}
+
+body {
+  // background-image: url('background.png'); /* fallback for older browsers */
+  // background-image: linear-gradient(to bottom, rgba(0,0,0,-0.4) 0%,rgba(0,0,0,-0.4) 100%), url('background.png');
+  // background-repeat: repeat;
+  // background-size: cover;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Merriweather', serif;
+}
+
+.content {
+  margin-top: 30px;
+  height: 700px;
+
+}
+

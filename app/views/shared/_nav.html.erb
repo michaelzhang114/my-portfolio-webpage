@@ -1,16 +1,16 @@
 <nav class="mr-auto">
   <ul class="nav nav-tabs justify-content-end">
     <li class="nav-item">
-      <%= link_to 'Home', root_path, class:"nav-link #{'active' if active(root_path)}" %>
+      <b><%= link_to 'Home', root_path, class:"nav-link #{'active' if active(root_path)}" %></b>
     </li>
     <li class="nav-item">
-      <%= link_to 'Projects', page_path('projects'), class:"nav-link #{'active' if active(page_path('projects'))}" %>
+      <b><%= link_to 'Projects', page_path('projects'), class:"nav-link #{'active' if active(page_path('projects'))}" %></b>
     </li>
     <li class="nav-item">
-      <%= link_to 'Contact', page_path('contact'), class:"nav-link #{'active' if active(page_path('contact'))}" %>
+      <b><%= link_to 'Contact', page_path('contact'), class:"nav-link #{'active' if active(page_path('contact'))}" %></b>
     </li>
     <li class="nav-item">
-      <%= link_to 'Resume', '#', class:"nav-link" %>
+      <b><%= link_to 'Resume', '#', class:"nav-link" %></b>
     </li>
   </ul>
 </nav>
