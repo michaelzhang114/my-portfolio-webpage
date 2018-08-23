@@ -7,9 +7,6 @@
       <b><%= link_to 'Projects', page_path('projects'), class:"nav-link #{'active' if active(page_path('projects'))}" %></b>
     </li>
     <li class="nav-item">
-      <b><%= link_to 'Contact', page_path('contact'), class:"nav-link #{'active' if active(page_path('contact'))}" %></b>
-    </li>
-    <li class="nav-item">
       <b><%= link_to 'Press', page_path('press'), class:"nav-link #{'active' if active(page_path('press'))}" %></b>
     </li>
     <li class="nav-item">
@@ -17,5 +14,10 @@
         <%= link_to "Resume", asset_path("Zhang_Michael_2308.pdf", skip_pipeline: true), target: "_blank", class:"nav-link" %>
       </b>
     </li>
+    <li class="nav-item">
+      <b><%= link_to 'Contact', page_path('contact'), class:"nav-link #{'active' if active(page_path('contact'))}" %></b>
+    </li>
+
+
   </ul>
 </nav>
