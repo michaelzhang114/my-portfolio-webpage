@@ -1,11 +1,31 @@
 <div class="container">
   <div class="row">
     <div class="col"></div>
-    <div class="col-8">
+    <div class="col-10">
       <h1 align="center">My projects</h1>
       <hr>
-      <%= link_to 'gtive', page_path('gtive')%>
+
+
+
     </div>
     <div class="col"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col" align="center">
+    <%= link_to page_path('gtive') do %>
+        <%= image_tag 'msp.jpg', size: '480x320', class: "img-shade" %>
+    <% end %>
+    <br><br>
+    <%= link_to 'Generative Music Project using Max/MSP', page_path('gtive')%>
+  </div>
+  <div class="col" align="center">
+    <%= link_to page_path('betteron') do %>
+        <%= image_tag 'code.jpg', size: '480x320', class: "img-shade" %>
+    <% end %>
+    <br><br>
+    <%= link_to 'SaaS Client Portal for BetterOn', page_path('betteron')%>
+
   </div>
 </div>
